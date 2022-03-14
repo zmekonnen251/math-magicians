@@ -1,6 +1,7 @@
 # Math-Magicians
 
-# To Do list: list structure
+## Math Magicians: setup
+
 
 > In this project, I setp up a project enviroment for the Math-Maginicians React Project
 
