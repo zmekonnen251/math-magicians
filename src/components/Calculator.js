@@ -1,7 +1,7 @@
 import React from 'react';
 import './Calculator.css';
 
-class Calculator extends React.Component {
+export default class Calculator extends React.PureComponent {
   render() {
     return (
       <div className="calc-container">
@@ -30,4 +30,4 @@ class Calculator extends React.Component {
   }
 }
 
-export default Calculator;
+// export default Calculator;
