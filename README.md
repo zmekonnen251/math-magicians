@@ -9,7 +9,7 @@
 
 ## Built With
 
-- `HTML` ,`CSS` and `JavaScript`
+- `JavaScript`and `CSS`
 - Frameworks : `React.js`
 - Technologies used: `GitHub`,`Webpack`
 
