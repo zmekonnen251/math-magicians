@@ -29,5 +29,3 @@ export default class Calculator extends React.PureComponent {
     );
   }
 }
-
-// export default Calculator;
