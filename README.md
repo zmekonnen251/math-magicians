@@ -4,7 +4,7 @@
 
 > In this project, I developed a React component that will hold the core functionality: a calculator.
 
-![calculator](https://user-images.githubusercontent.com/92645881/158345623-0dc3e839-0d31-47ae-b02b-d11d3f7e07da.png)
+![calculator-2](https://user-images.githubusercontent.com/92645881/158620664-5406eb17-0953-4b20-890b-5d94b5818be9.png)
 
 
 ## Built With
