@@ -42,7 +42,7 @@
 
 ## Live Demo
 
-[live Demo](https://dazzling-tereshkova-ef8050.netlify.app/)
+[live Demo](https://sad-hermann-8b0326.netlify.app/)
 
 ## 🤝 Contributing
 
