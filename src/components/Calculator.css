@@ -1,33 +1,56 @@
+body {
+  background-color: rgb(36, 36, 36);
+}
+
 .calc-container {
-  width: 400px;
+  width: 200px;
+  height: 300px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 2px;
+  gap: 4px;
 }
 
 .calc-display {
   grid-column: 1 / span 4;
-  background-color: #a7a7a7;
+  background-color: rgb(41, 22, 22);
   text-align: right;
-  padding-right: 13px;
+  color: white;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  height: 20px;
 }
 
 .zero {
   grid-column: 1 / span 2;
 }
 
-.calc-container div {
-  color: black;
-  padding: 16px 12px;
+.calc-container .operator {
+  background-color: rgb(95, 86, 70);
+  cursor: pointer;
+  color: white;
 }
 
-.operator {
-  background-color: orange;
+.calc-container button {
+  color: rgb(0, 0, 0);
+  padding: 16px 12px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 15px;
 }
 
 .number,
 .dot {
   background-color: #d2d2d2;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.operator:hover {
+  background-color: rgb(116, 24, 24);
 }

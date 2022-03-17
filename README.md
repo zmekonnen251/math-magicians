@@ -6,9 +6,6 @@
 
 ![calculator-2](https://user-images.githubusercontent.com/92645881/158620664-5406eb17-0953-4b20-890b-5d94b5818be9.png)
 
-
-
-
 ## Built With
 
 - `JavaScript`and `CSS`
