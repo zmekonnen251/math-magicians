@@ -1,11 +1,6 @@
-body {
-  background-color: rgb(36, 36, 36);
-}
-
 .calc-container {
-  width: 200px;
-  height: 300px;
-  margin: 0 auto;
+  width: 400px;
+  height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -17,10 +12,11 @@ body {
   background-color: rgb(41, 22, 22);
   text-align: right;
   color: white;
-  padding: 10px 5px;
+  padding: 10px 10px;
   margin-bottom: 5px;
   border-radius: 10px;
-  height: 20px;
+  height: 40px;
+  font-size: 1.5rem;
 }
 
 .zero {

@@ -1,13 +1,19 @@
 import React from 'react';
-import './App.css';
-import Calculator from './components/Calculator';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-export default class App extends React.PureComponent {
-  render() {
-    return (
-      <div className="App">
-        <Calculator />
-      </div>
-    );
-  }
-}
+import './App.css';
+import CalculatorPage from './pages/CalculatorPage';
+import Home from './pages/Home';
+import Quote from './pages/Quote';
+
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<CalculatorPage />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+  </Router>
+);
+
+export default App;

@@ -1,4 +1,8 @@
-.App {
-  text-align: center;
-  margin-top: 30px;
+body {
+  width: 80vw;
+  margin: 30px auto;
+  border: 1px solid #525252;
+  height: 80vh;
+  padding: 30px;
+  box-shadow: 2px 3px 10px 5px #331c1c;
 }

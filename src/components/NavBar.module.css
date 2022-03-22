@@ -1,0 +1,26 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}

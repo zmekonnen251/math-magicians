@@ -1,0 +1,4 @@
+.homePageContainer {
+  display: flex;
+  justify-content: space-between;
+}
