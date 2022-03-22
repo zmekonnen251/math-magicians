@@ -42,7 +42,7 @@
 
 ## Live Demo
 
-[live Demo](https://sad-hermann-8b0326.netlify.app/)
+[live Demo](https://math-magincians.netlify.app/)
 
 ## 🤝 Contributing
 
